@@ -1,0 +1,11 @@
+#iptools:
+#  ip:
+#    cycle: 10
+#    model: "detail"
+#    cycle-reset: false
+#
+
+#iptools:
+#  ip:
+#    cycle:
+

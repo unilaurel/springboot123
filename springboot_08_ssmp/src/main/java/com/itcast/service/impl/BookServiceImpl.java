@@ -11,6 +11,8 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.itcast.dao.BookDao;
 import com.itcast.domain.Book;
 import com.itcast.service.IBookService;
+import io.micrometer.core.instrument.Counter;
+import io.micrometer.core.instrument.MeterRegistry;
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -33,13 +35,24 @@ public class BookServiceImpl extends ServiceImpl<BookDao,Book> implements IBookS
 @Autowired
 BookDao bookDao;
 
+    private Counter counter;
+public BookServiceImpl(MeterRegistry meterRegistry){
+    counter = meterRegistry.counter("用户付费操作次数");
+}
+
     @Override
     public Book getByID(Integer id) {
-        return bookDao.selectById(id);
+
+    counter.increment();
+    return bookDao.selectById(id);
     }
+
+
+    
 
     @Override
     public IPage<Book> getPage(int currentPage, int pageSize,Book book){
+    counter.increment();
         Page<Book> page = new Page<>(currentPage, pageSize);
         QueryWrapper<Book> qwr = new QueryWrapper<>();
         qwr.lambda().like(Strings.isNotEmpty(book.getDescription()),Book::getDescription,book.getDescription());

@@ -1,0 +1,25 @@
+2023-08-09 20:03:15.352  INFO 48593 --- [main] com.itheima.Application                  : Starting Application using Java 11.0.20 on usernoMacBook-Pro.local with PID 48593 (/Users/dreamtank177/Downloads/6、SpringBoot2全套/2.运维实用篇/运维实用篇-资料/源代码/springboot/springboot_10_profiles/target/classes started by dreamtank177 in /Users/dreamtank177/Documents/04_mycode/IDEA/springboot0802)
+2023-08-09 20:03:15.354  INFO 48593 --- [main] com.itheima.Application                  : The following profiles are active: pro,devDB,proMVC
+2023-08-09 20:03:16.113  INFO 48593 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 81 (http)
+2023-08-09 20:03:16.122  INFO 48593 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-09 20:03:16.122  INFO 48593 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-08-09 20:03:16.188  INFO 48593 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-09 20:03:16.189  INFO 48593 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 792 ms
+2023-08-09 20:03:16.508  INFO 48593 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 81 (http) with context path ''
+2023-08-09 20:03:16.523  INFO 48593 --- [main] com.itheima.Application                  : Started Application in 1.593 seconds (JVM running for 7.375)
+2023-08-09 20:07:31.324  INFO 48631 --- [main] com.itheima.Application                  : Starting Application using Java 11.0.20 on usernoMacBook-Pro.local with PID 48631 (/Users/dreamtank177/Downloads/6、SpringBoot2全套/2.运维实用篇/运维实用篇-资料/源代码/springboot/springboot_10_profiles/target/classes started by dreamtank177 in /Users/dreamtank177/Documents/04_mycode/IDEA/springboot0802)
+2023-08-09 20:07:31.327  INFO 48631 --- [main] com.itheima.Application                  : The following profiles are active: pro,devDB,proMVC
+2023-08-09 20:07:32.173  INFO 48631 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 81 (http)
+2023-08-09 20:07:32.183  INFO 48631 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-09 20:07:32.184  INFO 48631 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-08-09 20:07:32.252  INFO 48631 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-09 20:07:32.253  INFO 48631 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 879 ms
+2023-08-09 20:07:32.673  INFO 48631 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 81 (http) with context path ''
+2023-08-09 20:07:32.688  INFO 48631 --- [main] com.itheima.Application                  : Started Application in 1.825 seconds (JVM running for 7.598)
+2023-08-09 20:09:28.091  INFO 48639 --- [main] com.itheima.Application                  : Starting Application using Java 11.0.20 on usernoMacBook-Pro.local with PID 48639 (/Users/dreamtank177/Downloads/6、SpringBoot2全套/2.运维实用篇/运维实用篇-资料/源代码/springboot/springboot_10_profiles/target/classes started by dreamtank177 in /Users/dreamtank177/Documents/04_mycode/IDEA/springboot0802)
+2023-08-09 20:09:28.093  INFO 48639 --- [main] com.itheima.Application                  : The following profiles are active: pro,devDB,proMVC
+2023-08-09 20:09:28.805  INFO 48639 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 81 (http)
+2023-08-09 20:09:28.813  INFO 48639 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-09 20:09:28.814  INFO 48639 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-08-09 20:09:28.875  INFO 48639 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-09 20:09:28.876  INFO 48639 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 743 ms

@@ -1,9 +1,11 @@
 package com.itcast.controller;
 
+//import cn.itcast.service.IpCountService;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.itcast.controller.utils.R;
 import com.itcast.domain.Book;
 import com.itcast.service.IBookService;
+import com.itcast.service.impl.BookServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.*;
@@ -25,6 +27,7 @@ import java.util.List;
 public class BookController {
     @Autowired
     IBookService bookService;
+
 
     @GetMapping
     public R getAll() throws IOException {
@@ -65,7 +68,8 @@ public class BookController {
 //            r.setFlag(false);
 //        }
 
-        System.out.println("参数==》"+book);
+//        System.out.println("参数==》"+book);
+
         //如果当前页码值大于总页码值，那么重新进行查询操作，使用最大页码值作为当前页码值
         IPage<Book> page = bookService.getPage(currentPage, pageSize,book);
         if(currentPage>page.getPages()){
